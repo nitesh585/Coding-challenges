@@ -54,6 +54,5 @@ public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         int pindex = 0;
         return  build(preorder, inorder, 0, inorder.size()-1,pindex);
-     
     }
 };
