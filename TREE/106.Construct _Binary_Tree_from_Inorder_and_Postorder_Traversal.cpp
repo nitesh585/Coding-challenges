@@ -62,4 +62,4 @@ public:
         pindex = inorder.size()-1;
         return build(inorder, postorder,0,inorder.size()-1);
     }
-};
+};	
