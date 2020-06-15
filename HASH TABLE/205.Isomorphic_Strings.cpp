@@ -1,3 +1,4 @@
+/*
 Given two strings s and t, determine if they are isomorphic.
 
 Two strings are isomorphic if the characters in s can be replaced to get t.
@@ -21,6 +22,7 @@ Output: true
 
 Note:
 You may assume both s and t have the same length.
+*/
 
 class Solution {
 public:
