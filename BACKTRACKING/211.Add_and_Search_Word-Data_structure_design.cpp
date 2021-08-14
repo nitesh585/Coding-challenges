@@ -34,6 +34,7 @@ public:
         for(int i=0; i<26; i++){
             node->children[i] = NULL;
         }
+
         node->endword = false;
         return node;
     }

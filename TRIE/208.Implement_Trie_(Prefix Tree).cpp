@@ -63,6 +63,7 @@ public:
     bool search(string word) {
         TrieNode* tmp = root;
         for(int i=0; i<word.size() ; i++){
+
             int index = word[i]-'a';
             
             if(!tmp->children[index]){

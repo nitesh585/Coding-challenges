@@ -31,7 +31,7 @@ public:
                 res.push_back(nums[i]);
             }
             i++;
-            k = k>>1;
+            k >>=1;
         }
         
         return res;
